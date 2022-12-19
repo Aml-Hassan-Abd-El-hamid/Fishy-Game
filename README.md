@@ -1,2 +1,3 @@
 # Fishy-Game
-A game built using Java and P3 program.
+Help Neo eat as much fishes as you can and avoid getting killed by sharks and underwater missiles!
+
