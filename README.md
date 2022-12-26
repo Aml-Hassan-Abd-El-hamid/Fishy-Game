@@ -12,5 +12,7 @@ In the peace mode, you have 2 enemies: the shark which makes you lose once it ea
 
 In the war mode, your only enemy is the bombs that come from the warship, you have to avoid them at all costs!<br> 
 
+A demo video bfor our game: https://youtu.be/sUe1R777zTM
+
 
 
