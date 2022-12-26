@@ -15,4 +15,27 @@ In the war mode, your only enemy is the bombs that come from the warship, you ha
 A demo video bfor our game: https://youtu.be/sUe1R777zTM
 
 
+## Code Description:
+
+### **Language: ** java
+
+### Versions of Processing 3:
+
+```
+-we run this code on those versions of processing:
+    -Processing 3.5.3 
+    -Processing 3.5.4
+```
+We used different oop techniques:<br>
+- We used the concept of " Inheritance " 
+  where class "Shark" and class "Food" extend from class "Fishs"(parent)
+- We also made sure to apply the abstraction concept.<br>
+### To help you understand the code 
+
+If you are new to processing3, you need to know that the setup function will be called only 1 time and that is why we use it to load all the images at once, load the sound and also initializing our fishes hashmaps.<br><br>
+the start_page class is the only class which is clled at the draw function - which is looping all the game - and it calls all the other classes based on the page_flag that's raised.<br><br>
+Initially the page_flag = 0 so the start page will be showed, if the player pressed "options" page_flag will be equal to 700 and the options class will be called.<br> if the player pressed "start peace" page_flag will be equal to -8 and the Body and Player classes will be called.<br>  if the player pressed "start war" page_flag will be equal to -7 and the Body, Player and War  classes will be called.<br> 
+
+
+
 
